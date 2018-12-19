@@ -1,4 +1,4 @@
 [submodule "fcl"]
 	path = fcl
-	url = git@github.com:flexible-collision-library/fcl.git
+	url = git@github.com:traclabs/fcl.git
         branch = master
