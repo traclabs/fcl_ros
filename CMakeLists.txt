@@ -11,7 +11,7 @@ set(BUILD_TESTING OFF CACHE BOOL "Disable FCL tests")
 file( MAKE_DIRECTORY "${CMAKE_INSTALL_PREFIX}/include/fcl" )
 
 find_package(PkgConfig)
-pkg_check_modules(PC_CCD ccd)
+pkg_check_modules(PC_CCD libccd-dev)
 
 catkin_package( 
   INCLUDE_DIRS fcl/include ${CMAKE_INSTALL_PREFIX}/include/fcl
